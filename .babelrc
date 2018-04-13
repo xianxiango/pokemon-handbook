@@ -1,0 +1,22 @@
+{
+  "presets": [
+    
+    "es2015",
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-object-assign",
+    ["import", { "style": "css", "libraryName": "antd-mobile" }],
+    [
+      "transform-runtime",
+      {
+        "helpers": false,
+        "polyfill": false,
+        "regenerator": true,
+        "moduleName": "babel-runtime"
+      }
+    ]
+  ]
+}
